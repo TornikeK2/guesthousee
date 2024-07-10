@@ -1,3 +1,5 @@
 from django.contrib import admin
-from django import admin
-# Register your models here.
+from .models import ContactInfo
+
+admin.site.register(ContactInfo)
+
